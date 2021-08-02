@@ -1,0 +1,3068 @@
+{
+    "version": "1",
+    "metadata": {
+        "date": 1627922837
+    },
+    "machine": {
+        "cpu": {
+            "manufacturer": "AMD",
+            "brand": "Athlon(tm) II Dual-Core M320",
+            "vendor": "AuthenticAMD",
+            "family": "16",
+            "model": "6",
+            "stepping": "2",
+            "revision": "",
+            "voltage": "",
+            "speed": 0.8,
+            "speedMin": 0.8,
+            "speedMax": 2.1,
+            "governor": "schedutil",
+            "cores": 2,
+            "physicalCores": 2,
+            "processors": 1,
+            "socket": "",
+            "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm 3dnowext 3dnow constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid pni monitor cx16 popcnt lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a 3dnowprefetch osvw ibs skinit wdt hw_pstate vmmcall npt lbrv svm_lock nrip_save",
+            "virtualization": true,
+            "cache": {
+                "l1d": 131072,
+                "l1i": 131072,
+                "l2": 1,
+                "l3": ""
+            }
+        },
+        "os": {
+            "platform": "linux",
+            "distro": "Ubuntu",
+            "release": "21.04",
+            "codename": "Hirsute Hippo",
+            "kernel": "5.11.0-16-generic",
+            "arch": "x64",
+            "codepage": "UTF-8",
+            "logofile": "ubuntu",
+            "build": "",
+            "servicepack": "",
+            "uefi": false
+        },
+        "system": {
+            "manufacturer": "ASUSTeK Computer Inc.",
+            "model": "K70AF",
+            "version": "1.0",
+            "sku": "-",
+            "virtual": false
+        },
+        "docker": {
+            "kernelVersion": "5.11.0-16-generic",
+            "operatingSystem": "Ubuntu 21.04",
+            "osVersion": "21.04",
+            "osType": "linux",
+            "architecture": "x86_64",
+            "ncpu": 2,
+            "memTotal": 4117913600,
+            "serverVersion": "20.10.7"
+        }
+    },
+    "results": [
+        {
+            "implementation": "ada",
+            "solution": "1",
+            "label": "BoopBeepBoopBeep",
+            "passes": 785,
+            "duration": 5.004835659,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "assembly",
+            "solution": "1",
+            "label": "rbergen_x64uff_byte",
+            "passes": 2206,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "assembly",
+            "solution": "1",
+            "label": "rbergen_x64ff_byte",
+            "passes": 1820,
+            "duration": 5.001,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "assembly",
+            "solution": "1",
+            "label": "rbergen_x64uff_bitbtr",
+            "passes": 2485,
+            "duration": 5.001,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "assembly",
+            "solution": "1",
+            "label": "rbergen_x64ff_bitbtr",
+            "passes": 2362,
+            "duration": 5.001,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "assembly",
+            "solution": "1",
+            "label": "rbergen_x64uff_bitshift",
+            "passes": 2608,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "assembly",
+            "solution": "1",
+            "label": "rbergen_x64ff_bitshift",
+            "passes": 2427,
+            "duration": 5.001,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "assemblyscript",
+            "solution": "1",
+            "label": "donmahallem",
+            "passes": 752,
+            "duration": 5.000999927520752,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "ballerina",
+            "solution": "1",
+            "label": "da-strange-boi",
+            "passes": 35,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "parallel": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "bash",
+            "solution": "1",
+            "label": "bash_inline",
+            "passes": 1,
+            "duration": 7.871159961,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "bash",
+            "solution": "1",
+            "label": "bash_packed",
+            "passes": 1,
+            "duration": 30.697889532,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "bash",
+            "solution": "1",
+            "label": "bash",
+            "passes": 1,
+            "duration": 14.170326729,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "basic",
+            "solution": "1",
+            "label": "rbergen_8of30",
+            "passes": 1065,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "basic",
+            "solution": "1",
+            "label": "rbergen_bit32",
+            "passes": 252,
+            "duration": 5.008,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "basic",
+            "solution": "1",
+            "label": "rbergen_bit64",
+            "passes": 255,
+            "duration": 5.019,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "basic",
+            "solution": "1",
+            "label": "rbergen_boolean",
+            "passes": 469,
+            "duration": 5.006,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "basic",
+            "solution": "2",
+            "label": "rbergen_vb",
+            "passes": 940,
+            "duration": 5.0015459,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "basic",
+            "solution": "3",
+            "label": "Nukepayload2_ArrayPool8of30M",
+            "passes": 4444,
+            "duration": 5.0002768,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "basic",
+            "solution": "3",
+            "label": "Nukepayload2_ReDim8of30M",
+            "passes": 4363,
+            "duration": 5.0003458,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "1",
+            "label": "mckoss-c830",
+            "passes": 8341,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_1of2",
+            "passes": 2934,
+            "duration": 5.000027,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_8of30",
+            "passes": 4897,
+            "duration": 5.000235,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_8of30_owrb",
+            "passes": 3890,
+            "duration": 5.000842,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_48of210",
+            "passes": 5681,
+            "duration": 5.000878,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_48of210_owrb",
+            "passes": 5871,
+            "duration": 5.000175,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_480of2310_owrb",
+            "passes": 8749,
+            "duration": 5.000098,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_5760of30030_owrb",
+            "passes": 9743,
+            "duration": 5.000175,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_1of2_par",
+            "passes": 4817,
+            "duration": 5.000027,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_8of30_par",
+            "passes": 6859,
+            "duration": 5.000125,
+            "threads": 2,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_48of210_par",
+            "passes": 7558,
+            "duration": 5.000319,
+            "threads": 2,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_480of2310_par",
+            "passes": 8249,
+            "duration": 5.000308,
+            "threads": 2,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_5760of30030_par",
+            "passes": 9050,
+            "duration": 5.000293,
+            "threads": 2,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_1of2_epar",
+            "passes": 5812,
+            "duration": 5.002568,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_8of30_epar",
+            "passes": 7372,
+            "duration": 5.001245,
+            "threads": 2,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_48of210_epar",
+            "passes": 11052,
+            "duration": 5.001761,
+            "threads": 2,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_480of2310_epar",
+            "passes": 15719,
+            "duration": 5.001154,
+            "threads": 2,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "2",
+            "label": "danielspaangberg_5760of30030_epar",
+            "passes": 17509,
+            "duration": 5.000844,
+            "threads": 2,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "3",
+            "label": "fvbakel_Cwords",
+            "passes": 9585,
+            "duration": 5.000176,
+            "threads": 1,
+            "tags": {
+                "algorithm": "other",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cobol",
+            "solution": "1",
+            "label": "fvbakel_Cobol",
+            "passes": 703,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "1",
+            "label": "davepl_pol",
+            "passes": 2659,
+            "duration": 5.001072,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "2",
+            "label": "davepl_par",
+            "passes": 5350,
+            "duration": 5.00143,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "3",
+            "label": "flo80_constexpr",
+            "passes": 84048,
+            "duration": 5.000062,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "3",
+            "label": "flo80_constexpr",
+            "passes": 70217,
+            "duration": 5.000061,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-1of2-cs-hs-inv_stridedbits<u8>-gcc",
+            "passes": 8421,
+            "duration": 5.00116,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-1of2-cs-hs-inv_stridedbits<u8>-gcc",
+            "passes": 4196,
+            "duration": 5.00115,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-1of2-bs-hs-vec<u8>-gcc",
+            "passes": 3316,
+            "duration": 5.00198,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-1of2-bs-hs-vec<u8>-gcc",
+            "passes": 2294,
+            "duration": 5.00186,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-1of2-cs-hs-inv_arr<bool>-gcc",
+            "passes": 3740,
+            "duration": 5.00308,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-1of2-cs-hs-inv_arr<bool>-gcc",
+            "passes": 2051,
+            "duration": 5.00007,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-1of2-cs-hs-inv_stridedbits<u8>-clang",
+            "passes": 1064,
+            "duration": 5.00781,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-1of2-cs-hs-inv_stridedbits<u8>-clang",
+            "passes": 544,
+            "duration": 5.005,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-1of2-bs-hs-vec<u8>-clang",
+            "passes": 3490,
+            "duration": 5.0014,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-1of2-bs-hs-vec<u8>-clang",
+            "passes": 1953,
+            "duration": 5.00181,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-1of2-cs-hs-inv_arr<bool>-clang",
+            "passes": 3555,
+            "duration": 5.00245,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-1of2-cs-hs-inv_arr<bool>-clang",
+            "passes": 2092,
+            "duration": 5.00161,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-5760of30030-os-hs-inv_bits<u32>-gcc",
+            "passes": 13841,
+            "duration": 5.00061,
+            "threads": 2,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-5760of30030-os-hs-inv_bits<u32>-gcc",
+            "passes": 7142,
+            "duration": 5.00008,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-5760of30030-os-hs-inv_vec<u8>-gcc",
+            "passes": 5025,
+            "duration": 5.0011,
+            "threads": 2,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-5760of30030-os-hs-inv_vec<u8>-gcc",
+            "passes": 2604,
+            "duration": 5.00187,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-5760of30030-os-hs-maskedbits<u32>-gcc",
+            "passes": 14875,
+            "duration": 5.0004,
+            "threads": 2,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-5760of30030-os-hs-maskedbits<u32>-gcc",
+            "passes": 7743,
+            "duration": 5.0006,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-5760of30030-os-hs-inv_bits<u32>-clang",
+            "passes": 16024,
+            "duration": 5.00027,
+            "threads": 2,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-5760of30030-os-hs-inv_bits<u32>-clang",
+            "passes": 8205,
+            "duration": 5.00004,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-5760of30030-os-hs-inv_vec<u8>-clang",
+            "passes": 4141,
+            "duration": 5.00238,
+            "threads": 2,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-5760of30030-os-hs-inv_vec<u8>-clang",
+            "passes": 2479,
+            "duration": 5.00156,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-5760of30030-os-hs-maskedbits<u32>-clang",
+            "passes": 15076,
+            "duration": 5.00336,
+            "threads": 2,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-5760of30030-os-hs-maskedbits<u32>-clang",
+            "passes": 7808,
+            "duration": 5.00033,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-pregenerated-inv_bits<u32>-gcc",
+            "passes": 290975,
+            "duration": 5.00006,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-pregenerated-inv_bits<u32>-gcc",
+            "passes": 122197,
+            "duration": 5.00005,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-pregenerated-inv_bits<u32>-clang",
+            "passes": 585970,
+            "duration": 5.00017,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cpp",
+            "solution": "4",
+            "label": "BlackMark-pregenerated-inv_bits<u32>-clang",
+            "passes": 308954,
+            "duration": 5.00003,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "crystal",
+            "solution": "1",
+            "label": "marghidanu",
+            "passes": 2580,
+            "duration": 5.000472,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "1",
+            "label": "kinematics_original",
+            "passes": 845,
+            "duration": 5.00519,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "1",
+            "label": "kinematics_standard",
+            "passes": 887,
+            "duration": 5.0009,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "1",
+            "label": "kinematics_bool",
+            "passes": 1252,
+            "duration": 5.00074,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "1",
+            "label": "kinematics_ibool",
+            "passes": 1525,
+            "duration": 5.0028,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "1",
+            "label": "kinematics_dbool",
+            "passes": 1542,
+            "duration": 5.00041,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "1",
+            "label": "kinematics_raw",
+            "passes": 1401,
+            "duration": 5.00056,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "1",
+            "label": "kinematics_raw32",
+            "passes": 1748,
+            "duration": 5.00242,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "1",
+            "label": "kinematics_rawd",
+            "passes": 1394,
+            "duration": 5.00164,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "1",
+            "label": "kinematics_raw6",
+            "passes": 1395,
+            "duration": 5.00292,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "1",
+            "label": "kinematics_rawp",
+            "passes": 692,
+            "duration": 5.00354,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "1",
+            "label": "kinematics_pool",
+            "passes": 1868,
+            "duration": 5.00145,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "1",
+            "label": "kinematics_pool2of6",
+            "passes": 2304,
+            "duration": 5.0016,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "1",
+            "label": "kinematics_pool6p",
+            "passes": 1041,
+            "duration": 5.00353,
+            "threads": 2,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "1",
+            "label": "kinematics_pool30",
+            "passes": 2544,
+            "duration": 5.00083,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "1",
+            "label": "kinematics_pool30m",
+            "passes": 3631,
+            "duration": 5.00132,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "2",
+            "label": "davepl",
+            "passes": 767,
+            "duration": 5.00194,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "csharp",
+            "solution": "3",
+            "label": "tannergooding",
+            "passes": 1792,
+            "duration": 5.0004347,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cython",
+            "solution": "1",
+            "label": "rpkak+byte-array",
+            "passes": 1987,
+            "duration": 5.0019573850004235,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "cython",
+            "solution": "1",
+            "label": "rpkak+bit-array",
+            "passes": 3699,
+            "duration": 5.001077019001968,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "cython",
+            "solution": "1",
+            "label": "ssovest-cy",
+            "passes": 7001,
+            "duration": 5.0001359999999995,
+            "threads": 1,
+            "tags": {
+                "algorithm": "other",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "d",
+            "solution": "1",
+            "label": "eagerestwolf",
+            "passes": 684,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "d",
+            "solution": "2",
+            "label": "BradleyChatha-Single-SieveCT",
+            "passes": 2238,
+            "duration": 5.00002,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "bits": "1",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "d",
+            "solution": "2",
+            "label": "BradleyChatha-MultistaticThreads-SieveCT",
+            "passes": 4443,
+            "duration": 5.00172,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "bits": "1",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "d",
+            "solution": "2",
+            "label": "BradleyChatha-Single-SieveRT",
+            "passes": 2112,
+            "duration": 5.00075,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "bits": "1",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "d",
+            "solution": "2",
+            "label": "BradleyChatha-MultistaticThreads-SieveRT",
+            "passes": 4202,
+            "duration": 5.00192,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "bits": "1",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "d",
+            "solution": "2",
+            "label": "BradleyChatha-Single-SieveRT_8",
+            "passes": 1533,
+            "duration": 5.00012,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "bits": "8",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "d",
+            "solution": "2",
+            "label": "BradleyChatha-MultistaticThreads-SieveRT_8",
+            "passes": 2750,
+            "duration": 5.00166,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "bits": "8",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "dart",
+            "solution": "1",
+            "label": "eagerestwolf&mmcdon20_8bit",
+            "passes": 1185,
+            "duration": 5.000771,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "dart",
+            "solution": "1",
+            "label": "eagerestwolf&mmcdon20_8bit_par",
+            "passes": 1403,
+            "duration": 5.000618,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "dart",
+            "solution": "1",
+            "label": "eagerestwolf&mmcdon20_1bit",
+            "passes": 1033,
+            "duration": 5.002163,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "dart",
+            "solution": "1",
+            "label": "eagerestwolf&mmcdon20_1bit_par",
+            "passes": 1967,
+            "duration": 5.001442,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "elixir",
+            "solution": "1",
+            "label": "cdesch",
+            "passes": 1,
+            "duration": 87.477,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "elixir",
+            "solution": "2",
+            "label": "thomas9911",
+            "passes": 13,
+            "duration": 5.443,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "emojicode",
+            "solution": "1",
+            "label": "marghidanu",
+            "passes": 7,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "forth",
+            "solution": "1",
+            "label": "tjol-1bit",
+            "passes": 75,
+            "duration": 5.051637,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "forth",
+            "solution": "1",
+            "label": "tjol-8bit",
+            "passes": 225,
+            "duration": 5.014493,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "fortran",
+            "solution": "1",
+            "label": "johandweber_fortran",
+            "passes": 2620,
+            "duration": 5.001,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "fortran",
+            "solution": "2",
+            "label": "tjol-bits",
+            "passes": 3670,
+            "duration": 5.00133562,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "fortran",
+            "solution": "2",
+            "label": "tjol-8bit",
+            "passes": 1858,
+            "duration": 5.00148296,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "fortran",
+            "solution": "2",
+            "label": "tjol-logical",
+            "passes": 504,
+            "duration": 5.00158262,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "fsharp",
+            "solution": "1",
+            "label": "rbergen",
+            "passes": 888,
+            "duration": 5.0010726,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "fsharp",
+            "solution": "2",
+            "label": "dmannock_fsharp_port",
+            "passes": 711,
+            "duration": 5.005969,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "fsharp",
+            "solution": "3",
+            "label": "dmannock_fsharp_recursion",
+            "passes": 711,
+            "duration": 5.006617,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "gdscript",
+            "solution": "1",
+            "label": "OrigamiDev-Pete",
+            "passes": 40,
+            "duration": 8.187,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "go",
+            "solution": "1",
+            "label": "bundgaard",
+            "passes": 507,
+            "duration": 5.001934,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "go",
+            "solution": "2",
+            "label": "ssovest-go-uint8",
+            "passes": 2054,
+            "duration": 5.002408877,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "go",
+            "solution": "2",
+            "label": "ssovest-go-uint32",
+            "passes": 1985,
+            "duration": 5.000763095,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "go",
+            "solution": "2",
+            "label": "ssovest-go-ptr",
+            "passes": 2519,
+            "duration": 5.00068303,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "go",
+            "solution": "2",
+            "label": "ssovest-go-other",
+            "passes": 5551,
+            "duration": 5.001383048,
+            "threads": 1,
+            "tags": {
+                "algorithm": "other",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "go",
+            "solution": "2",
+            "label": "ssovest-go-uint8-B",
+            "passes": 2081,
+            "duration": 5.000420335,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "go",
+            "solution": "2",
+            "label": "ssovest-go-uint32-B",
+            "passes": 2398,
+            "duration": 5.001180393,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "go",
+            "solution": "2",
+            "label": "ssovest-go-ptr-B",
+            "passes": 2514,
+            "duration": 5.002671689,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "go",
+            "solution": "2",
+            "label": "ssovest-go-other-B",
+            "passes": 5980,
+            "duration": 5.000496998,
+            "threads": 1,
+            "tags": {
+                "algorithm": "other",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "go",
+            "solution": "4",
+            "label": "kpym-go-multi",
+            "passes": 3095,
+            "duration": 5.000293,
+            "threads": 4,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "haskell",
+            "solution": "1",
+            "label": "fatho/bitset",
+            "passes": 2281,
+            "duration": 5.000889,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "bits": "1",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "haskell",
+            "solution": "1",
+            "label": "fatho/bitset_unchecked",
+            "passes": 2541,
+            "duration": 5.001938,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "bits": "1",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "haskell",
+            "solution": "1",
+            "label": "fatho/vector",
+            "passes": 753,
+            "duration": 5.005237,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "bits": "8",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "haskell",
+            "solution": "1",
+            "label": "fatho/vector_unchecked",
+            "passes": 756,
+            "duration": 5.002761,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "bits": "8",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "haxe",
+            "solution": "1",
+            "label": "TayIorRobinson_Haxe_C++",
+            "passes": 195,
+            "duration": 5.00834012031555,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "haxe",
+            "solution": "1",
+            "label": "TayIorRobinson_Haxe_HaxeEval",
+            "passes": 8,
+            "duration": 5.03935980796814,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "haxe",
+            "solution": "1",
+            "label": "TayIorRobinson_Haxe_Python",
+            "passes": 2,
+            "duration": 6.028586149215698,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "idl",
+            "solution": "1",
+            "label": "kriztioan_1bit",
+            "passes": 1,
+            "duration": 5.508961,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "idl",
+            "solution": "1",
+            "label": "kriztioan_idlway",
+            "passes": 119,
+            "duration": 5.033488,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "java",
+            "solution": "1",
+            "label": "MansenC",
+            "passes": 1519,
+            "duration": 5.002,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "java",
+            "solution": "2",
+            "label": "PratimGhosh86-JavaBitSet",
+            "passes": 888,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "java",
+            "solution": "3",
+            "label": "MansenC-native",
+            "passes": 1147,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "julia",
+            "solution": "1",
+            "label": "dcbi",
+            "passes": 2420,
+            "duration": 5.0018720626831055,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "julia",
+            "solution": "2",
+            "label": "epithet-jl",
+            "passes": 2902,
+            "duration": 5.000162839889526,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "julia",
+            "solution": "3",
+            "label": "louie-github_port_1of2",
+            "passes": 2359,
+            "duration": 5.000772953033447,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "kos",
+            "solution": "1",
+            "label": "cdragan",
+            "passes": 34,
+            "duration": 5.088461,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "kotlin",
+            "solution": "1",
+            "label": "jvm_kotlin_traditional_single",
+            "passes": 1382,
+            "duration": 5.099,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "kotlin",
+            "solution": "1",
+            "label": "jvm_kotlin_idiomatic_fast_single",
+            "passes": 1487,
+            "duration": 5.028,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "kotlin",
+            "solution": "1",
+            "label": "jvm_kotlin_idiomatic_single",
+            "passes": 1378,
+            "duration": 5.003,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "kotlin",
+            "solution": "1",
+            "label": "jvm_kotlin_traditional_multi",
+            "passes": 2624,
+            "duration": 5,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "kotlin",
+            "solution": "1",
+            "label": "jvm_kotlin_idiomatic_fast_multi",
+            "passes": 2634,
+            "duration": 5,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "kotlin",
+            "solution": "1",
+            "label": "jvm_kotlin_idiomatic_multi",
+            "passes": 2540,
+            "duration": 5,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "kotlin",
+            "solution": "1",
+            "label": "js_kotlin_traditional_single",
+            "passes": 180,
+            "duration": 5.021,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "kotlin",
+            "solution": "1",
+            "label": "js_kotlin_idiomatic_fast_single",
+            "passes": 190,
+            "duration": 5.029,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "kotlin",
+            "solution": "1",
+            "label": "js_kotlin_idiomatic_single",
+            "passes": 174,
+            "duration": 5.037,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "kotlin",
+            "solution": "1",
+            "label": "native_kotlin_traditional_single",
+            "passes": 769,
+            "duration": 5.007,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "kotlin",
+            "solution": "1",
+            "label": "native_kotlin_idiomatic_fast_single",
+            "passes": 829,
+            "duration": 5.004,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "kotlin",
+            "solution": "1",
+            "label": "native_kotlin_idiomatic_single",
+            "passes": 678,
+            "duration": 5.005,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "lisp",
+            "solution": "1",
+            "label": "mikehw",
+            "passes": 31,
+            "duration": 10.080726,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "lua",
+            "solution": "1",
+            "label": "lua",
+            "passes": 14,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "64"
+            }
+        },
+        {
+            "implementation": "lua",
+            "solution": "2",
+            "label": "ben1jen_luajit1",
+            "passes": 2100,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "mixal",
+            "solution": "1",
+            "label": "rbergen",
+            "passes": 30,
+            "duration": 12.78,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "mixed",
+            "solution": "1",
+            "label": "ssovest-cgo",
+            "passes": 8010,
+            "duration": 5.001862166,
+            "threads": 1,
+            "tags": {
+                "algorithm": "other",
+                "faithful": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "nim",
+            "solution": "1",
+            "label": "marghidanu",
+            "passes": 705,
+            "duration": 5.000043630599976,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "nim",
+            "solution": "2",
+            "label": "beef331",
+            "passes": 2082,
+            "duration": 5.001177310943604,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "nodejs",
+            "solution": "1",
+            "label": "rogiervandam",
+            "passes": 1463,
+            "duration": 5.001928892999888,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "nodejs",
+            "solution": "1",
+            "label": "rogiervandam",
+            "passes": 2958,
+            "duration": 5.146420659001917,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "nodejs",
+            "solution": "1",
+            "label": "rogiervandam_memcopy",
+            "passes": 2145,
+            "duration": 5.001470741000026,
+            "threads": 1,
+            "tags": {
+                "algorithm": "other",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "ocaml",
+            "solution": "1",
+            "label": "gkpotter-faithful",
+            "passes": 170,
+            "duration": 5.015559,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "ocaml",
+            "solution": "2",
+            "label": "gkpotter-unfaithful",
+            "passes": 142,
+            "duration": 5.002546,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "octave",
+            "solution": "1",
+            "label": "octave",
+            "passes": 317,
+            "duration": 5.0147,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "octave",
+            "solution": "2",
+            "label": "Brandon-Johns_1bit",
+            "passes": 1,
+            "duration": 828.549461,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "octave",
+            "solution": "2",
+            "label": "Brandon-Johns_8bit",
+            "passes": 61,
+            "duration": 5.079518,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "odin",
+            "solution": "1",
+            "label": "odin_bit_moe",
+            "passes": 3127,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "odin",
+            "solution": "1",
+            "label": "odin_byte_moe",
+            "passes": 1703,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "odin",
+            "solution": "1",
+            "label": "odin_bit_threaded_moe",
+            "passes": 6107,
+            "duration": 5.002,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "odin",
+            "solution": "1",
+            "label": "odin_byte_threaded_moe",
+            "passes": 3354,
+            "duration": 5.003,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "pascal",
+            "solution": "1",
+            "label": "rbergen",
+            "passes": 737,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "pascal",
+            "solution": "2",
+            "label": "circular17",
+            "passes": 637,
+            "duration": 5.01,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "perl",
+            "solution": "1",
+            "label": "marghidanu",
+            "passes": 12,
+            "duration": 5.068618,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "perl",
+            "solution": "2",
+            "label": "kjetillll",
+            "passes": 19,
+            "duration": 5.099892,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "php",
+            "solution": "1",
+            "label": "DennisdeBest",
+            "passes": 64,
+            "duration": 5.027005,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "pony",
+            "solution": "1",
+            "label": "marghidanu",
+            "passes": 523,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "postscript",
+            "solution": "1",
+            "label": "epithet-ps",
+            "passes": 73,
+            "duration": 5.057,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "powershell",
+            "solution": "1",
+            "label": "crowbar27_ps1",
+            "passes": 1,
+            "duration": 287.21,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "powershell",
+            "solution": "2",
+            "label": "crowbar27_ps2",
+            "passes": 4,
+            "duration": 5.54849,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "prolog",
+            "solution": "1",
+            "label": "jimbxb-prolog-c",
+            "passes": 21,
+            "duration": 5.237,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "prolog",
+            "solution": "1",
+            "label": "jimbxb-prolog-dynamic",
+            "passes": 2,
+            "duration": 5.431,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "prolog",
+            "solution": "1",
+            "label": "jimbxb-prolog-basic",
+            "passes": 1,
+            "duration": 31.704,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "python",
+            "solution": "1",
+            "label": "davepl",
+            "passes": 8,
+            "duration": 5.467989023003611,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "python",
+            "solution": "2",
+            "label": "ssovest",
+            "passes": 635,
+            "duration": 5.00200066499383,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "python",
+            "solution": "3",
+            "label": "emillynge_numpy",
+            "passes": 1117,
+            "duration": 5.002189175997046,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "r",
+            "solution": "1",
+            "label": "fvbakel_R",
+            "passes": 166,
+            "duration": 5.01,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "32"
+            }
+        },
+        {
+            "implementation": "r",
+            "solution": "2",
+            "label": "nobrien97",
+            "passes": 181,
+            "duration": 5.007,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "32"
+            }
+        },
+        {
+            "implementation": "raku",
+            "solution": "1",
+            "label": "draco1006",
+            "passes": 2,
+            "duration": 5.429647,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "red",
+            "solution": "1",
+            "label": "mmcdon20_red",
+            "passes": 3,
+            "duration": 7.076194000001124,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "rexx",
+            "solution": "1",
+            "label": "joss_REXX",
+            "passes": 9,
+            "duration": 5.145493,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "bits": "8",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "rexx",
+            "solution": "2",
+            "label": "joss_NetRexx",
+            "passes": 14,
+            "duration": 5.065423,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "bits": "8",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "ruby",
+            "solution": "1",
+            "label": "rbergen",
+            "passes": 38,
+            "duration": 5.075,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "1",
+            "label": "mike-barber_byte-storage",
+            "passes": 2139,
+            "duration": 5.0024967194,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "1",
+            "label": "mike-barber_bit-storage",
+            "passes": 3366,
+            "duration": 5.0014209747,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "1",
+            "label": "mike-barber_bit-storage-rotate",
+            "passes": 3245,
+            "duration": 5.0000891685,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "1",
+            "label": "mike-barber_bit-storage-striped",
+            "passes": 9164,
+            "duration": 5.0002350807,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "1",
+            "label": "mike-barber_bit-storage-striped-blocks",
+            "passes": 8063,
+            "duration": 5.0006599426,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "1",
+            "label": "mike-barber_bit-storage-striped-blocks-small",
+            "passes": 7211,
+            "duration": 5.0004243851,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "1",
+            "label": "mike-barber_byte-storage",
+            "passes": 4061,
+            "duration": 5.002348423,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "1",
+            "label": "mike-barber_bit-storage",
+            "passes": 6558,
+            "duration": 5.001376152,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "1",
+            "label": "mike-barber_bit-storage-rotate",
+            "passes": 6310,
+            "duration": 5.0015072823,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "1",
+            "label": "mike-barber_bit-storage-striped",
+            "passes": 17633,
+            "duration": 5.000565052,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "1",
+            "label": "mike-barber_bit-storage-striped-blocks",
+            "passes": 15684,
+            "duration": 5.0005192757,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "1",
+            "label": "mike-barber_bit-storage-striped-blocks-small",
+            "passes": 13965,
+            "duration": 5.000357151,
+            "threads": 2,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "2",
+            "label": "Azgrom",
+            "passes": 688,
+            "duration": 5.0022745,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "3",
+            "label": "Blui42",
+            "passes": 602,
+            "duration": 5.000585334,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "4",
+            "label": "joshallen64",
+            "passes": 683,
+            "duration": 5.0066547,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "6",
+            "label": "SycrationSinglethreaded",
+            "passes": 15616,
+            "duration": 5.000206209,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "rust",
+            "solution": "6",
+            "label": "SycrationMultithreaded",
+            "passes": 21095,
+            "duration": 5.015339685,
+            "threads": 8,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "scala",
+            "solution": "1",
+            "label": "rom1dep",
+            "passes": 1059,
+            "duration": 5.003,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "scala",
+            "solution": "2",
+            "label": "scilari",
+            "passes": 1595,
+            "duration": 5.001,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "scheme",
+            "solution": "1",
+            "label": "William103",
+            "passes": 59,
+            "duration": 5.059718751,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "bits": "1",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "smalltalk",
+            "solution": "1",
+            "label": "fvbakel_smalltalk",
+            "passes": 15,
+            "duration": 5.037,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "sql",
+            "solution": "1",
+            "label": "fvbakel_sqlite",
+            "passes": 2,
+            "duration": 5.523245153999596,
+            "threads": 1,
+            "tags": {
+                "algorithm": "other",
+                "faithful": "no",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "sql",
+            "solution": "2",
+            "label": "fvbakel_MariaDB1",
+            "passes": 1,
+            "duration": 19.599,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "32"
+            }
+        },
+        {
+            "implementation": "sql",
+            "solution": "2",
+            "label": "fvbakel_MariaDB2",
+            "passes": 1,
+            "duration": 5.429,
+            "threads": 1,
+            "tags": {
+                "algorithm": "other",
+                "faithful": "no",
+                "bits": "32"
+            }
+        },
+        {
+            "implementation": "sql",
+            "solution": "2",
+            "label": "fvbakel_MariaDB3",
+            "passes": 2,
+            "duration": 6.259,
+            "threads": 1,
+            "tags": {
+                "algorithm": "other",
+                "faithful": "no",
+                "bits": "32"
+            }
+        },
+        {
+            "implementation": "standardml",
+            "solution": "1",
+            "label": "NotMatthewGriffin_SMLofNJ",
+            "passes": 63,
+            "duration": 5.08,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "tcl",
+            "solution": "1",
+            "label": "fvbakeltcl",
+            "passes": 2,
+            "duration": 5.236,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "tcl",
+            "solution": "2",
+            "label": "fvbakel_ootcl",
+            "passes": 2,
+            "duration": 6.574,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "tcl",
+            "solution": "2",
+            "label": "fvbakel_ootcl2",
+            "passes": 11,
+            "duration": 5.069,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "32"
+            }
+        },
+        {
+            "implementation": "tex",
+            "solution": "1",
+            "label": "tjol",
+            "passes": 1,
+            "duration": 28.575927734375,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no",
+                "bits": "32"
+            }
+        },
+        {
+            "implementation": "tex",
+            "solution": "2",
+            "label": "jfbu-tex",
+            "passes": 5,
+            "duration": 5.29305,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "tex",
+            "solution": "2",
+            "label": "jfbu-tex-480of2310",
+            "passes": 12,
+            "duration": 5.05096,
+            "threads": 1,
+            "tags": {
+                "algorithm": "wheel",
+                "faithful": "no"
+            }
+        },
+        {
+            "implementation": "typescript",
+            "solution": "1",
+            "label": "marghidanu",
+            "passes": 660,
+            "duration": 5.003,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "typescript",
+            "solution": "2",
+            "label": "mikevdbokke_32bit-array",
+            "passes": 1320,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "typescript",
+            "solution": "2",
+            "label": "mikevdbokke_8bit-array",
+            "passes": 1117,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "typescript",
+            "solution": "2",
+            "label": "mikevdbokke_number-array",
+            "passes": 56,
+            "duration": 5.027,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "typescript",
+            "solution": "2",
+            "label": "mikevdbokke_byte-array",
+            "passes": 664,
+            "duration": 5.005,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        },
+        {
+            "implementation": "v",
+            "solution": "1",
+            "label": "marghidanu",
+            "passes": 797,
+            "duration": 5,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "wren",
+            "solution": "1",
+            "label": "marghidanu",
+            "passes": 36,
+            "duration": 5.069259,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes"
+            }
+        },
+        {
+            "implementation": "zig",
+            "solution": "1",
+            "label": "devblok",
+            "passes": 781,
+            "duration": 5.00566,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "8"
+            }
+        }
+    ]
+}

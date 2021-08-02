@@ -42,42 +42,50 @@ class prime_parser:
             ## Top 10 single threaded\n\n')
 
             output.write('### Base, Faithful, 1 thread, 1 bit\n\n')
-            tmp = df_results[ \
+            tmp_df = df_results[ \
                 (df_results['faithful']=='yes') & \
                 (df_results['algorithm']=='base') & \
                 (df_results['bits']=='1') & \
                 (df_results['threads']==1)][cols].sort_values(by=['passes per sec'], \
-                ascending=False).head(10).to_markdown(index=False)
+                ascending=False).head(10).reset_index(drop=True)
+            tmp_df.index = tmp_df.index +1
+            tmp = tmp_df.to_markdown(index=True)
             output.write(tmp)
             output.write('\n')
 
             output.write('### Not wheel, Faithful, 1 thread\n\n')
-            tmp = df_results[ \
+            tmp_df = df_results[ \
                 (df_results['faithful']=='yes') & \
                 (df_results['algorithm']!='wheel') & \
             #    (df_results['bits']=='1') & \
                 (df_results['threads']==1)][cols].sort_values(by=['passes per sec'], \
-                ascending=False).head(10).to_markdown(index=False)
+                ascending=False).head(10).reset_index(drop=True)
+            tmp_df.index = tmp_df.index +1
+            tmp = tmp_df.to_markdown(index=True)
             output.write(tmp)
             output.write('\n')
 
             output.write('### Faithful, 1 thread\n\n')
-            tmp = df_results[ \
+            tmp_df = df_results[ \
                 (df_results['faithful']=='yes') & \
                 (df_results['algorithm']=='base') & \
             #    (df_results['bits']=='1') & \
                 (df_results['threads']==1)][cols].sort_values(by=['passes per sec'], \
-                ascending=False).head(10).to_markdown(index=False)
+                ascending=False).head(10).reset_index(drop=True)
+            tmp_df.index = tmp_df.index +1
+            tmp = tmp_df.to_markdown(index=True)
             output.write(tmp)
             output.write('\n')
 
             output.write('### Single threaded\n\n')
-            tmp = df_results[ \
+            tmp_df = df_results[ \
             #    (df_results['faithful']=='yes') & \
             #    (df_results['algorithm']=='base') & \
             #    (df_results['bits']=='1') & \
                 (df_results['threads']==1)][cols].sort_values(by=['passes per sec'], \
-                ascending=False).head(10).to_markdown(index=False)
+                ascending=False).head(10).reset_index(drop=True)
+            tmp_df.index = tmp_df.index +1
+            tmp = tmp_df.to_markdown(index=True)
             output.write(tmp)
             output.write('\n')
 
@@ -85,47 +93,60 @@ class prime_parser:
             output.write('## Top 10 multi threaded\n\n')
 
             output.write('### Base, Faithful, multi thread, 1 bit\n\n')
-            tmp = df_results[ \
+            tmp_df = df_results[ \
                 (df_results['faithful']=='yes') & \
                 (df_results['algorithm']=='base') & \
                 (df_results['bits']=='1') & \
                 (df_results['threads']!=1)][cols].sort_values(by=['passes per sec'], \
-                ascending=False).head(10).to_markdown(index=False)
+                ascending=False).head(10).reset_index(drop=True)
+            tmp_df.index = tmp_df.index +1
+            tmp = tmp_df.to_markdown(index=True)
             output.write(tmp)
             output.write('\n')
 
             output.write('### Not wheel, Faithful, multi thread\n\n')
-            tmp = df_results[ \
+            tmp_df = df_results[ \
                 (df_results['faithful']=='yes') & \
                 (df_results['algorithm']!='wheel') & \
             #    (df_results['bits']=='1') & \
                 (df_results['threads']!=1)][cols].sort_values(by=['passes per sec'], \
-                ascending=False).head(10).to_markdown(index=False)
+                ascending=False).head(10).reset_index(drop=True)
+            tmp_df.index = tmp_df.index +1
+            tmp = tmp_df.to_markdown(index=True)
             output.write(tmp)
             output.write('\n')
 
             output.write('### Faithful, multi thread\n\n')
-            tmp = df_results[ \
+            tmp_df = df_results[ \
                 (df_results['faithful']=='yes') & \
                 (df_results['algorithm']=='base') & \
             #    (df_results['bits']=='1') & \
                 (df_results['threads']!=1)][cols].sort_values(by=['passes per sec'], \
-                ascending=False).head(10).to_markdown(index=False)
+                ascending=False).head(10).reset_index(drop=True)
+            tmp_df.index = tmp_df.index +1
+            tmp = tmp_df.to_markdown(index=True)
             output.write(tmp)
             output.write('\n')
 
             output.write('### Multi threaded\n\n')
-            tmp = df_results[ \
+            tmp_df = df_results[ \
             #    (df_results['faithful']=='yes') & \
             #    (df_results['algorithm']=='base') & \
             #    (df_results['bits']=='1') & \
                  (df_results['threads']!=1)][cols].sort_values(by=['passes per sec'], \
-                ascending=False).head(10).to_markdown(index=False)
+                ascending=False).head(10).reset_index(drop=True)
+            tmp_df.index = tmp_df.index +1
+            tmp = tmp_df.to_markdown(index=True)
             output.write(tmp)
             output.write('\n')
 
             output.write('## All results\n\n')
-            tmp = df_results.to_markdown(index=False)
+            #tmp = df_results[cols].sort_values(by=['passes per sec'], \
+            #    ascending=False,ignore_index=True).head(10).reset_index(drop=True).to_markdown() #.reset_index(drop=True)
+            tmp_df = df_results[cols].sort_values(by=['passes per sec'], \
+                ascending=False).reset_index(drop=True)
+            tmp_df.index = tmp_df.index +1
+            tmp = tmp_df.to_markdown(index=True)
             output.write(tmp)
             output.write('\n')
 
